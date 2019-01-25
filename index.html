@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<title>Cascio & Farber | Law Firm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.png">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Rokkitt:400,700,900|Ubuntu" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt=""/>
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					<!-- LOGO -->
+					<div class="pull-left">
+						<a href="index.html" class="logo"></a>
+					</div><!-- //LOGO -->					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" class="menu-item">Home</a></li>
+								<li class="scroll_btn"><a href="#about" class="menu-item">Firm</a></li>
+								<li class="sub-menu">
+									<a href="#team" class="menu-item">Professional Staff</a>
+									<ul>
+										<li><a href="professional.html">Ricky Baker</a></li>
+										<li><a href="professional.html">John Doe</a></li>
+										<li><a href="professional.html">Staci Curtis</a></li>
+									</ul>
+								</li>
+								<li class="scroll_btn"><a href="#news" class="menu-item">News</a></li>
+								<li class="sub-menu">
+									<a href="#practices">Practice Areas</a>
+									<ul>
+										<li><a href="practice.html">Corporate</a></li>
+										<li><a href="practice.html">Finance</a></li>
+										<li><a href="practice.html">Litigation</a></li>
+										<li><a href="practice.html">Real Estate</a></li>
+										<li><a href="practice.html">Native American</a></li>
+										<li><a href="practice.html">Tax</a></li>
+									</ul>
+								</li>
+								<li class="scroll_btn last"><a href="#contacts" class="menu-item">Contact</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">Nationally</p>
+							<p class="title2 captionDelay4 FromTop">Ranked</p>
+							<p class="title3 captionDelay6 FromTop">Professionals</p>
+							<p class="title4 captionDelay7 FromBottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<a class="slide_btn FromRight" href="practice.html">Read More</a>
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Five</p>
+							<p class="title2 captionDelay4 FromLeft">Decades</p>
+							<p class="title3 captionDelay2 FromLeft">of Service</p>
+							<p class="title4 captionDelay7 FromLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<a class="slide_btn FromRight" href="practice.html">Read More</a>
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Innovative</p>
+							<p class="title2 captionDelay2 FromBottom">Financial</p>
+							<p class="title3 captionDelay3 FromBottom">Strategies</p>
+							<p class="title4 captionDelay5 FromBottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<a class="slide_btn FromRight" href="practice.html">Read More</a>
+						
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+		</section><!-- //HOME -->
+		
+		
+		<!-- ABOUT -->
+		<section id="about">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot80" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+					<div class="col-12">
+						<h2><b>About</b> Us</h2>
+					</div>
+					<!-- ROW -->
+					<div class="row offset-top-75">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30 services_item">
+							<p><i class="fa fa-sq fa-thumbs-up"></i><b>Quality</b> Service</p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30 services_item">
+							<p><i class="fa fa-sq fa-money"></i><b>Reasonable</b> Prices</p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30 services_item">
+							<p><i class="fa fa-sq fa-gavel"></i><b>Experienced</b> Professionals</p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30 services_item">
+							<p><i class="fa fa-sq fa-coffee"></i><b>Free</b> Consultation</p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span>
+						</div>
+					</div><!-- //ROW -->
+					<div class="row offset-top-30">
+						<div class="col-md-6">
+							<img class="img-responsive img-bw" src="images/location.jpg">
+						</div>
+						<div class="col-md-6">
+							<div class="offset-top-30-mobile services_item">
+								<p><b>Convenient</b> Location</p>
+							</div>
+							<p class="offset-top-10">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+							</p>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+		</section><!-- //ABOUT -->
+		
+		
+		<!-- TEAM -->
+		<section id="team">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2 class="text-white"><b>Our</b> Team</h2>
+				
+				<!-- ROW -->
+				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+						
+					<!-- TEAM SLIDER -->
+					<div class="owl-demo owl-carousel team_slider">
+				
+						<!-- crewman1 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/1.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>Ricky Baker</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman1 -->
+						
+						<!-- crewman2 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/2.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>John Doe</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman1 -->
+						
+						<!-- crewman3 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/3.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>Staci Curtis</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman3 -->
+						
+						<!-- crewman4 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/1.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>Ricky Baker</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman4 -->
+						
+						<!-- crewman5 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/2.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>John Doe</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman5 -->
+						
+						<!-- crewman6 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/3.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>Staci Curtis</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman6 -->
+						
+						<!-- crewman7 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/1.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>Ricky Baker</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman7 -->
+						
+						<!-- crewman8 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/2.jpg" alt="" class="img-bw"/>
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p><b>John Doe</b></p>
+										<a href="professional.html">View Profile</a>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
+									<a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman8 -->
+					</div><!-- TEAM SLIDER -->
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //TEAM -->
+
+
+
+		<!-- practices -->
+		<section id="news">
+			<div class="container">
+				<h2><b>News</b> and Updates</h2>
+			</div><!-- //CONTAINER -->
+			<!-- CONTAINER -->
+			<div class="container">
+
+				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+					<div class="offset-top-30 col-lg-4 col-md-4 col-sm-6 padbot30 post_item_block">
+						<div class="post_item">
+							<a href="news-item.html"><img src="images/blog/corporate1.jpg" class="img-bw" alt=""/></a>
+						</div>
+						<div>
+							<div class="text-left post_item_content">
+								<p>4/4/17</p>
+								<h4>Small Business Promotion</h4>
+								<div class="post_item_cta"><a href="news-item.html" class="btn-small">Read More</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="offset-top-30 col-lg-4 col-md-4 col-sm-6 offset-sm-top-0 padbot30 post_item_block">
+						<div class="post_item">
+							<a href="news-item.html"><img src="images/blog/finance1.jpg" class="img-bw" alt=""/></a>
+						</div>
+						<div>
+							<div class="text-left post_item_content">
+								<p>1/24/17</p>
+								<h4>Portland Convention Center Project</h4>
+								<div class="post_item_cta"><a href="news-item.html" class="btn-small">Read More</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="offset-top-30 col-lg-4 col-md-4 col-sm-6 padbot30 post_item_block">
+						<div class="post_item">
+							<a href="news-item.html"><img src="images/blog/litigation1.jpg" class="img-bw" alt=""/></a>
+						</div>
+						<div>
+							<div class="text-left post_item_content">
+								<p>12/8/16</p>
+								<h4>Exxon Lawsuit</h4>
+								<div class="post_item_cta"><a href="news-item.html" class="btn-small">Read More</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="offset-top-30 col-lg-4 col-md-4 col-sm-6 padbot30 post_item_block">
+						<div class="post_item">
+							<a href="news-item.html"><img src="images/blog/realestate1.jpg" class="img-bw" alt=""/></a>
+						</div>
+						<div>
+							<div class="text-left post_item_content">
+								<p>10/24/16</p>
+								<h4>Commercial Real Estate & Sales</h4>
+								<div class="post_item_cta"><a href="news-item.html" class="btn-small">Read More</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="offset-top-30 col-lg-4 col-md-4 col-sm-6 padbot30 post_item_block">
+						<div class="post_item">
+							<a href="news-item.html"><img src="images/blog/native1.jpg" class="img-bw" alt=""/></a>
+						</div>
+						<div>
+							<div class="text-left post_item_content">
+								<p>4/4/16</p>
+								<h4>Environmental Regulation in New Mexico</h4>
+								<div class="post_item_cta"><a href="news-item.html" class="btn-small">Read More</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="offset-top-30 col-lg-4 col-md-4 col-sm-6 padbot30 post_item_block">
+						<div class="post_item">
+							<a href="news-item.html"><img src="images/blog/tax1.jpg" class="img-bw" alt=""/></a>
+						</div>
+						<div>
+							<div class="text-left post_item_content">
+								<p>1/5/16</p>
+								<h4>Mid F - Seminar</h4>
+								<div class="post_item_cta"><a href="news-item.html" class="btn-small">Read More</a></div>
+							</div>
+						</div>
+					</div>
+				</div><!-- articles -->
+			</div>
+		</section>
+		<!-- PROJECTS -->
+		<section id="practices" class="padbot80">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2 class="text-white"><b>Practice</b> Areas</h2>
+			</div><!-- //CONTAINER -->
+			
+				
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">
+					
+					<!-- work1 -->
+					<div class="item">
+						<div class="work_img">
+							<a class="img-bw" href="practice.html">
+								<img src="images/works/1.jpg" alt=""/>
+								<h4>Corporate</h4>
+							</a>
+						</div>
+					</div><!-- //work1 -->
+					
+					<!-- work2 -->
+					<div class="item">
+						<div class="work_img">
+							<a class="img-bw" href="practice.html">
+								<img src="images/works/2.jpg" alt=""/>
+								<h4>Finance</h4>
+							</a>
+						</div>
+					</div><!-- //work2 -->
+					
+					<!-- work3 -->
+					<div class="item">
+						<div class="work_img">
+							<a class="img-bw" href="practice.html">
+								<img src="images/works/3.jpg" alt=""/>
+								<h4>Litigation</h4>
+							</a>
+						</div>
+					</div><!-- //work3 -->
+					
+					<!-- work4 -->
+					<div class="item">
+						<div class="work_img">
+							<a class="img-bw" href="practice.html">
+								<img src="images/works/4.jpg" alt=""/>
+								<h4>Real Estate</h4>
+							</a>
+						</div>
+					</div><!-- //work4 -->
+					
+					<!-- work5 -->
+					<div class="item">
+						<div class="work_img">
+							<a class="img-bw" href="practice.html">
+								<img src="images/works/5.jpg" alt=""/>
+								<h4>Native American</h4>
+							</a>
+						</div>
+					</div><!-- //work5 -->
+					
+					<!-- work6 -->
+					<div class="item">
+						<div class="work_img">
+							<a class="img-bw" ref="practice.html">
+								<img src="images/works/6.jpg" alt=""/>
+								<h4>Tax</h4>
+							</a>
+						</div>
+					</div><!-- //work6 -->
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+		</section><!-- //PROJECTS -->
+		<!-- TESTIMONIALS -->
+		<section id="testimonials">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2 class="offset-top-75"><b>Clients</b> say about us</h2>
+				
+				<!-- TESTIMONIALS -->
+				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+						
+					<!-- TESTIMONIALS SLIDER -->
+					<div class="owl-demo owl-carousel testim_slider">
+						
+						<!-- TESTIMONIAL1 -->
+						<div class="item">
+							<div class="testim_content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.”</div>
+							<div class="testim_author">—  Anna Balashova, <b>Regular Patient</b></div>
+						</div><!-- TESTIMONIAL1 -->
+						
+						<!-- TESTIMONIAL2 -->
+						<div class="item">
+							<div class="testim_content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.”</div>
+							<div class="testim_author">—  Anna Balashova, <b>Regular Patient</b></div>
+						</div><!-- TESTIMONIAL2 -->
+						
+						<!-- TESTIMONIAL3 -->
+						<div class="item">
+							<div class="testim_content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.”</div>
+							<div class="testim_author">—  Anna Balashova, <b>Regular Patient</b></div>
+						</div><!-- TESTIMONIAL3 -->
+					</div><!-- TESTIMONIALS SLIDER -->
+				</div><!-- //TESTIMONIALS -->
+				<hr class="hr-divider">
+			</div><!-- //CONTAINER -->
+		</section><!-- //TESTIMONIALS -->
+		
+		<!-- CONTACTS -->
+		<section id="contacts">
+			<div class="container">
+				<h2><b>Contact</b> Us</h2>
+			</div><!-- //CONTAINER -->
+				<!-- CONTAINER -->
+			<div class="container padbot70">
+				<form>
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8 form-line">
+					  		<div class="form-group">
+					  			<label for="exampleInputUsername">Your name</label>
+							   	<input type="text" class="form-control" id="" placeholder=" Enter Name">
+						  	</div>
+						  	<div class="form-group">
+							   	<label for="exampleInputEmail">Email Address</label>
+							   	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+							</div>	
+							<div class="form-group">
+							   	<label for="telephone">Mobile No.</label>
+							   	<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+					  		</div>
+					  		<div class="form-group">
+							  <label for="sel1">Select practice:</label>
+							  <select class="form-control" id="sel1">
+							    <option>Face Lift</option>
+							    <option>Tummy Tuck</option>
+							    <option>Breast Augmentation</option>
+							  </select>
+							</div> 
+					  		<div class="form-group">
+					  			<label for ="description"> Message</label>
+					  		 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+					  		</div>
+					  		<div>
+					  			<button type="submit" class="btn-small submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+							</div>
+					  	</div>
+					  	<div class="col-lg-4 col-md-4 col-sm-4 contact-info">
+					  		<h3><b>Get in touch</b> with us today!</h3>
+							<a href="18001234567"><i class="fa fa-phone"></i>1 (800) 123 - 4567</a>
+					  		<a href="mailto:#" ><i class="fa fa-envelope"></i>inquiries@persinoe.com</a>
+					  		<a href="https://www.google.com/maps" ><i class="fa fa-map-marker"></i>123 West 4th Street<br>Miami, FL 12121</a>
+					  		<p><b>Office Hours</b><br><br>
+							Mon–Fri: 8:00am–6:00pm<br>
+							Sat: 9:00am–3:00pm<br>
+							Sun: 10:00am–2:00pm
+							</p>
+					  		<ul class="social">
+								<li><a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a></li>
+								<li><a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a></li>
+							</ul>
+					  	</div>
+					</div>
+					<div class="col-12 map-container">
+					  		<div class="overlay" onClick="style.pointerEvents='none'"></div>
+					  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229929.3379879714!2d-80.37108901690718!3d25.782256878424178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C+FL!5e0!3m2!1sen!2sus!4v1496252099138" allowfullscreen class="map"></iframe>		
+					</div>
+				</form>
+			</div>
+		</section><!-- //CONTACTS -->
+	</div><!-- //PAGE -->
+	<section id="footer-clear">
+	</section>
+	<!-- FOOTER -->
+	<footer>
+			
+		<!-- CONTAINER -->
+		<div class="container">
+			
+			<!-- ROW -->
+			<div class="padbot40 copyright">
+				<div class="col-lg-12 text-center padbot60 offset-top-30">
+					<a href="index.html" class="logo-white"></a>
+				</div>
+				<div class="col-lg-12 text-center">
+					 <ul class="list-inline footer-link text-white">
+		                <li><a href="#about.html">About</a>
+		                </li>
+		                <li><a href="#team.html">Doctors</a>
+		                </li>
+		                <li><a href="#services.html">Practices</a>
+		                </li>
+		                <li><a href="#gallery.html">Gallery</a>
+		                </li>
+		                <li><a href="#costs.html">Costs</a>
+		                </li>
+		                <li><a href="#testimonials.html">Testimonials</a>
+		                </li>
+		                <li><a href="#contacts.html">Contacts</a>
+		                </li>
+		             </ul>
+		        </div>
+		        <div class="col-lg-12 text-center">
+		             <ul class="list-inline footer-essentials text-white offset-top-30">
+		                <li><a href="privacy.html">Privacy Policy</a>
+		                </li>
+		                <li><a href="sitemap.html">Site Map</a>
+		                </li>
+		                <li><a href="disclaimer.html">Disclaimer</a>
+		                </li>
+		              </ul>
+				</div>
+				<div class="col-lg-12 text-center">
+					<ul class="footer-social offset-top-30">
+						<li><a href="https://twitter.com/" ><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://facebook.com/" ><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="https://linked-in.com/" ><i class="fa fa-linkedin-square"></i></a></li>
+					</ul>
+				</div>
+			</div><!-- //ROW -->
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+</div>
+</body>
+</html>
